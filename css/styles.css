@@ -1,0 +1,50 @@
+/*
+font-family: 'Monoton', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+/*****TAG SELECTORS*****/
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'roboto', sans-serif;
+  font-size: 100px;
+  background-color: orange;
+  color: white;
+  text-shadow: 10px 10px 2px pink;
+  word-spacing: 30px
+
+}
+
+img {
+  width: 25%;
+  height: auto;
+}
+
+img:hover {
+  width: 50%;
+  height: auto;
+}
+
+p {
+  color: pink;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  word-spacing: 30px
+}
+p:hover {
+  color: magenta;
+}
+/****CLASS SELECTORS****/
+.light {
+  color: yellow;
+}
+.dark {
+  color: black;
+}
+/****ID****/
+
+#heading {
+  color: blue;
+}
